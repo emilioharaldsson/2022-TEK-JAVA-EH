@@ -1,0 +1,31 @@
+html, body{
+    margin : 0; 
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.menu_container{
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: red;
+    font-family: cursive;
+    font-weight: 300;
+    color: white;
+}
+
+.menu_item{
+    flex: 1;
+    border: solid 3px purple;
+}
+
+.more{
+    flex: 2;
+}

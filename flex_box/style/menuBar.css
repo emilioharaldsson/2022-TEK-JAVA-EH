@@ -1,0 +1,17 @@
+*{
+    font-size: 50px;
+}
+
+
+.container{
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box{
+    background-color: aliceblue;
+    border-radius: 50% 20% / 10% 40%;
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    /* align-items: center; */
+    font-family: "Inter", sans-serif;
+    background-color: #F6F8FF;
+    letter-spacing: .2rem;
+  }
+
+  .main_container{
+    width: 1500px;
+    margin: 20px 30px;
+  }
+  .session1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    justify-content: center;
+  }
+  .about_emilio {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+  .bio {
+    font-size: 15px;
+    color: #898989;
+    margin-right: 20px;
+    margin-top: 40px;
+    line-height: 1.5;
+  }
+  .title_and_position{
+    display: grid;
+    grid-template-rows: 0.25fr  1fr 4fr;
+    margin-left: 40px;
+    
+  }
+  .name_title{
+    color: #414656;
+    padding-top: 20px;
+  
+  }
+
+  .position_{
+    color: #00C6BD;
+    font-size: 20px;
+  }
+
+  .profile_pic{
+    width:200px;
+    clip-path: circle(100px at 50% 35%);
+  }
+
+  .quote{
+    width: 700px;
+    font-size: 30px;
+    letter-spacing: .3rem;
+    color: #414656;
+    margin-left: 100px;
+  }
+
+  .empha{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #C60009;
+    margin-left: 10px;
+  }
+  .pushin-p{
+    font-style: oblique;
+    font-size: 36px;
+    margin-left: 200px;
+    color: #414656;
+    font-weight: 700;
+  }
+  .left_q{
+    margin-left: 200px;
+  }
+
+  .right_q{
+    margin-right: 50px;
+  }
