@@ -1,0 +1,16 @@
+.container{
+    height: 100px;
+}
+
+.lorem{
+    font-size: 15px;;
+}
+
+img{
+    width: 100px;
+    object-fit: cover;
+}
+
+.col{
+    background-color: #DBDBDB;
+}
