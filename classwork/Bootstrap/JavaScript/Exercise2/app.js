@@ -21,3 +21,46 @@ function calculate (calc){
 }
 
 calculate(input);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+My name is victoria.
+
+Practice.
+
+Emilo is my love. He is my favorite latinx. 
+
+
+*/
