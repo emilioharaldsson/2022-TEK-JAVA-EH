@@ -5,6 +5,7 @@ const btn = document.querySelector(".signupbtn")
 const passwordConditions = document.querySelector(".passwordConditions")
 const emailHelp = document.querySelector("#emailHelp")
 
+
 function validateEmail (email) {
     return email.match(/^([a-z\d\.-_]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2-8})?$/);
 };
@@ -50,4 +51,7 @@ function onSubmit(e){
     }
 }
 
+
+
 btn.addEventListener('click', onSubmit);
+
